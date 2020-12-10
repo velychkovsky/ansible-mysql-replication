@@ -1,0 +1,3 @@
+- name: Configure mysql master
+  debug:
+    msg: "Write your own role here for Configure MySQL Master node"

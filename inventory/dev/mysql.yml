@@ -1,0 +1,13 @@
+mysql:
+  children:
+    mysql-master:
+    mysql-slave:
+
+mysql-master:
+  hosts:
+    master:
+
+mysql-slave:
+  hosts:
+    slave1:
+    slave2:

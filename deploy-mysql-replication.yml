@@ -1,0 +1,17 @@
+- name: Install mysql-server
+  hosts: mysql
+  roles:
+  - role: mysql-server
+    tags: mysql-server
+
+- name: Configure mysql master
+  hosts: mysql-master
+  roles:
+  - role: mysql-master
+    tags: mysql-master
+
+- name: Configure mysql slaves
+  hosts: mysql-slave
+  roles:
+  - role: mysql-slave
+    tags: mysql-slave
