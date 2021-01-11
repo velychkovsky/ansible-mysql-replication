@@ -1,8 +1,8 @@
-# Real host ip
-ansible_host: 185.162.84.114
+# Real host ip  
+ansible_host: 185.162.84.120
 
 # Private host ip
-host_private_ip: 10.200.0.1
+host_private_ip: 10.200.0.5
 
 # SSH user which connect to servers
 ansible_user: adminroot
